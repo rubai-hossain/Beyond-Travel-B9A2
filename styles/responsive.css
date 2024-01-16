@@ -130,8 +130,17 @@
         right: 2%;
     }
 
-
-
+    .footer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-top: 24px;
+    }
+    .footer-container .icons {
+        margin-top: 16px;
+    }
+    .footer-container hr {
+        margin: 24px auto;
+    }
 
 
 
