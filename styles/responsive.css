@@ -152,6 +152,16 @@
 
 
 
+    .clients-review-container{
+        margin-bottom: 24px;
+    }
+    .clients-cards{
+        flex-direction: column;
+    }
 
+    #profile-card-1, #profile-card-2, #profile-card-3{
+        width: 80%;
+        margin: 0 auto;
+    }
 
 }

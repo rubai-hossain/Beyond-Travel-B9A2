@@ -391,6 +391,66 @@ select,
 
 /* Why choose us Style End Here */
 
+/* Bonus(Clients review) Style Start Here */
+.clients-review-container{
+    margin-bottom: 100px;
+}
+.clients-review-title{
+    text-align: center;
+}
+.clients-review-text{
+    max-width: 600px;
+    margin: 24px auto;
+    text-align: center;
+}
+.clients-cards{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.clients-cards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#profile-card-1{
+    width: 30%;
+}
+#profile-card-2{
+    width: 30%;
+    
+}
+#profile-card-3{
+    width: 30%;
+
+}
+.profile-card{
+    padding: 30px 20px;
+    border-radius: 16px;
+}
+.profile-card:hover {
+    box-shadow: 5px 5px 10px 10px rgba(29, 27, 26, 0.2);
+}
+
+.clients-cards i{
+    display: block;
+    font-size: 3rem;
+    color: #FF5400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.client-name{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Bonus(Clients review) Style End Here */
+
+
 /* Deals & Discount Style Start Here */
 .deals-discount-container {
     text-align: center;
