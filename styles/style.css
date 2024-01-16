@@ -1,0 +1,644 @@
+/* Mulish Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* Common style CSS Start*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    box-sizing: border-box;
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+.primary-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.primary-text {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 14px 34px;
+}
+
+/* Common style CSS End*/
+
+/* Navbar Style Start Here */
+.nav-container {
+    /* border: 1px solid green; */
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 120px;
+}
+
+.logo-container {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-container img {
+    width: 46px;
+    object-fit: cover;
+}
+
+.nav-container h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.menu-container {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.menu-container>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+    padding: 8px 0;
+}
+
+.menu-container>ul li {
+    list-style: none;
+}
+
+.menu-container>ul a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.menu-container>ul a:hover {
+    font-weight: 700;
+    color: #FF5400;
+}
+
+.menu-container .menu-1 {
+    font-weight: 700;
+}
+
+/* Navbar Style End Here */
+
+
+
+
+main {
+    width: 82%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    min-height: 100vh;
+}
+
+/* Banner Style StartHere */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.banner-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 88%;
+    margin: 0 auto;
+    padding: 16px 4px;
+    margin-top: 48px;
+}
+
+.banner-form input,
+select,
+.banner-btn {
+    border: none;
+    outline: none;
+    width: 174px;
+    padding: 16px;
+    margin: 0 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.banner-form .option-item {
+    color: black;
+}
+
+.banner-form .banner-btn {
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.banner-btn i {
+    width: 24px;
+    margin-right: 8px;
+}
+
+/* Banner Style End Here */
+
+/* Our Popular Tour Style Start Here */
+.popular-tour-container {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.popular-tour-content {
+    /* border: 2px solid rgb(128, 0, 85); */
+    width: 49%;
+}
+
+.popular-tour-list-text {
+    margin: 20px 0;
+}
+
+.popular-tour-list {
+    margin-left: 20px;
+}
+
+.popular-tour-list li {
+    margin-bottom: 12px;
+}
+
+.popular-tour-description {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.popular-tour-img {
+    /* border: 2px solid rgb(15, 176, 182); */
+    width: 49%;
+}
+
+.popular-tour-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* Our Popular Tour Style End Here */
+
+
+/* Destination Style Start Here */
+.destination-container {
+    border: 1px solid red;
+}
+
+.destination-title {
+    text-align: center;
+}
+
+.destination-description {
+    text-align: center;
+    max-width: 615px;
+    margin: 24px auto;
+}
+
+.destination-images-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.item {
+    /* width: 100%; */
+    height: 268px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .location p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.item-1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+    background-image: url("../Images/Rectangle 5.png");
+}
+
+.item-2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+    background-image: url("../Images/Rectangle 8.png");
+}
+
+.item-3 {
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+    background-image: url("../Images/Rectangle 6.png");
+}
+
+.item-4 {
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+    background-image: url("../Images/Rectangle 7.png");
+}
+
+.item-5 {
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+    background-image: url("../Images/Rectangle 9.png");
+}
+
+.item-6 {
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+    background-image: url("../Images/Rectangle 11.png");
+
+}
+
+.item-7 {
+    grid-column: 6/span 7;
+    grid-row: 3/span 1;
+    background-image: url("../Images/Rectangle 10.png");
+}
+
+
+/* Destination Style End Here */
+
+/* Why choose us Style Start Here */
+.why-choose-us-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.why-choose-us-title {
+    text-align: center;
+}
+
+.why-choose-us-description {
+    text-align: center;
+    max-width: 615px;
+    margin: 24px auto;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.cards-container .card img {
+    width: 64px;
+
+}
+
+.cards-container .card-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.cards-container .card-description {}
+
+.card {
+    padding: 32px;
+}
+
+#card-1 {
+    grid-column: 1/span 6;
+    grid-template-rows: 1/span 1;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+}
+
+#card-2 {
+    grid-column: 7/span 6;
+    grid-template-rows: 1/span 1;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+#card-3 {
+    grid-column: 4/span 6;
+    grid-template-rows: 2/span 1;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(233, 68, 68, 0.05);
+}
+
+/* Why choose us Style End Here */
+
+/* Deals & Discount Style Start Here */
+.deals-discount-container {
+    text-align: center;
+}
+
+.deals-discount-title {
+    text-align: center;
+}
+
+.deals-discount-description {
+    text-align: center;
+    max-width: 615px;
+    margin: 24px auto;
+}
+
+.deals {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px;
+    border-radius: 16px;
+    display: flex;
+    text-align: left;
+}
+
+.deal-1 {
+    background-image: url("../Images/Group\ 39.png");
+    justify-content: flex-end;
+    margin-top: 48px;
+}
+
+.deal-2 {
+    background-image: url("../Images/Group\ 40.png");
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+
+.deal-3 {
+    background-image: url("../Images/Group\ 39.png");
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.inner-container {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    max-width: 580px;
+}
+
+.inner-icons {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.inner-icons i {
+    font-size: 1.4rem;
+}
+
+.inner-icons p {
+    display: inline-block;
+    margin-left: 8px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.inner-container .inner-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.inner-text {
+    margin: 16px 0;
+}
+
+.inner-price {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.inner-btn {
+    padding: 14px 24px;
+    margin-top: 24px;
+}
+
+.deals-discount-btn {
+    padding: 14px 22px;
+    margin-top: 48px;
+}
+
+/* Deals & Discount Style End Here */
+
+/* Perfect Place Style Start Here */
+.perfect-place-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 2%;
+}
+
+.perfect-place-content {
+    width: 49%;
+}
+
+.perfect-place-title {
+    max-width: 450px;
+}
+
+.perfect-place-description {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.perfect-place-content>ul {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    margin-left: 20px;
+}
+
+.perfect-place-btn {
+    padding: 14px 40px;
+    margin-top: 32px;
+}
+
+.perfect-place-video {
+    width: 49%;
+}
+
+.perfect-place-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* Perfect Place Style End Here */
+
+/* Newsletter  Style Start Here */
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.newsletter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 42%;
+    padding: 40px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter-content hr {
+    border: 1px solid rgba(19, 19, 24, 0.05);
+    ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.newsletter-content input[type="text"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.newsletter-content input[type="button"] {
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 14px;
+    border-radius: 8px;
+    margin-top: 24px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    background-color: #FF5400;
+}
+
+.newsletter-image {
+    width: 56%;
+    position: relative;
+}
+
+.newsletter-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.discount-badge {
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 30px 60px;
+    position: absolute;
+    transform: rotate(-20deg);
+    bottom: 12%;
+    right: 2%;
+}
+
+.discount-badge .weblink {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.discount-badge .save70 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+
+
+/* Newsletter  Style End Here */
+
+
+
+
+
+/*  Style Start Here */
+/*  Style End Here */
