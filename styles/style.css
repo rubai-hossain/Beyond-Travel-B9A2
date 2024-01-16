@@ -42,7 +42,6 @@
 
 /* Navbar Style Start Here */
 .nav-container {
-    /* border: 1px solid green; */
     width: 82%;
     margin: 0 auto;
     display: flex;
@@ -52,7 +51,6 @@
 }
 
 .logo-container {
-    /* border: 1px solid red; */
     width: 50%;
     display: flex;
     align-items: center;
@@ -72,7 +70,6 @@
 }
 
 .menu-container {
-    /* border: 1px solid blue; */
     width: 50%;
 }
 
@@ -117,7 +114,6 @@
 main {
     width: 82%;
     margin: 0 auto;
-    border: 1px solid blue;
     min-height: 100vh;
 }
 
@@ -195,7 +191,6 @@ select,
 
 /* Our Popular Tour Style Start Here */
 .popular-tour-container {
-    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,7 +200,6 @@ select,
 }
 
 .popular-tour-content {
-    /* border: 2px solid rgb(128, 0, 85); */
     width: 49%;
 }
 
@@ -228,7 +222,6 @@ select,
 
 
 .popular-tour-img {
-    /* border: 2px solid rgb(15, 176, 182); */
     width: 49%;
 }
 
@@ -243,7 +236,6 @@ select,
 
 /* Destination Style Start Here */
 .destination-container {
-    border: 1px solid red;
 }
 
 .destination-title {
@@ -649,7 +641,6 @@ input[type="email"] {
 .footer-container {
     width: 82%;
     margin: 0 auto;
-    border: 1px solid blue;
     text-align: center;
 }
 
