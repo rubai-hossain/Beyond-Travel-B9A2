@@ -104,6 +104,11 @@
     font-weight: 700;
 }
 
+.navbar-logo{
+    visibility: hidden;
+    display: none;
+}
+
 /* Navbar Style End Here */
 
 

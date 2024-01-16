@@ -6,13 +6,21 @@
     }
 
     .nav-container {
-        min-height: 64px;
+        min-height: 100px;
         width: 90%;
     }
 
     .menu-container {
-        /* visibility: hidden; */
+        visibility: hidden;
         display: none;
+    }
+    .navbar-logo{
+        visibility:visible;
+        display:block;
+    }
+    .navbar-logo i{
+        font-size: 2rem;
+        color: #131318;
     }
 
     .logo-container {
