@@ -117,7 +117,9 @@
     .perfect-place-content, .perfect-place-video {
         width: 100%;
     }
-
+    .perfect-place-video {
+        margin-top: 24px;
+    }
     .newsletter-container {
         flex-direction: column;
     }
